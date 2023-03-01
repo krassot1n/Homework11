@@ -42,11 +42,11 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача №3");
-        int result = checkDeliveryTime(95);
+        int result = checkDeliveryTime(15);
         if (result == -1){
             System.out.println("Доставки нет");
         }else {
-            System.out.println("Доставка займет: " + result);
+            System.out.println("Доставка займет дней: " + result);
         }
     }
     public static int checkDeliveryTime(int deliveryDistance) {
